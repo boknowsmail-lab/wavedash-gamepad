@@ -61,5 +61,18 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
   box-shadow:0 0 24px 8px rgba(255,119,0,.95)!important;
 }
 
-/* V2 CROSS POSITION — corrected from latest screenshot */
-.ds4 .abxy .a{left:35px!important;top:188px!important}
+/* V2 FACE-BUTTON POSITIONING — explicit parent/child reference */
+.ds4 .abxy{
+  position:absolute!important;
+  width:148px!important;
+  height:148px!important;
+  left:556px!important;
+  top:176px!important;
+}
+.ds4 .button{
+  position:absolute!important;
+}
+.ds4 .abxy .a{
+  left:43px!important;
+  top:90px!important;
+}
