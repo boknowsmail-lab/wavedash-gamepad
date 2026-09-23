@@ -6,12 +6,12 @@
 body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 .controller.ds4{background:url("./wavedash-base(2).png");width:807px;height:651px;margin:0}
 .ds4 .sticks{width:367px;height:100px;left:220px;top:333px}
-.ds4 .stick{background:url("./sticks(1).png");width:100px;height:100px;border-radius:50%;overflow:hidden;background-color:transparent}
-.ds4 .stick.pressed{background-position:-102px 0;border-radius:50%}
+.ds4 .stick{background:url("https://i.imgur.com/nXaGdI2.png");width:100px;height:100px;border-radius:50%;filter:hue-rotate(165deg) saturate(1.55) brightness(1.18);box-shadow:inset 0 0 0 4px rgba(255,119,0,.95),0 0 10px rgba(0,174,255,.45)}
+.ds4 .stick.pressed{background-position:-102px 0;filter:hue-rotate(165deg) saturate(1.7) brightness(1.32);box-shadow:inset 0 0 0 4px rgba(255,119,0,1),0 0 18px rgba(0,174,255,.95)}
 .ds4 .stick.right{top:0;left:267px}
 .ds4 .abxy{width:181px;height:181px;left:573px;top:178px}
-.ds4 .button{width:58px;height:58px;background:none!important;border-radius:50%;box-sizing:border-box;opacity:0}
-.ds4 .button.pressed{opacity:1;background:rgba(0,174,255,.18)!important;box-shadow:0 0 15px 4px rgba(0,174,255,.95),inset 0 0 0 3px rgba(255,119,0,.9);margin-top:0}
+.ds4 .button{background:url("https://i.imgur.com/DVqDSsJ.png");width:58px;height:58px;filter:hue-rotate(165deg) saturate(1.4) brightness(1.12)}
+.ds4 .button.pressed{background-position-y:-59px;margin-top:0;filter:hue-rotate(165deg) saturate(1.8) brightness(1.55);box-shadow:0 0 14px rgba(0,174,255,.95);border-radius:50%}
 .ds4 .a{background-position:0 0;left:61px;top:123px}
 .ds4 .b{background-position:-59px 0;left:123px;top:62px}
 .ds4 .x{background-position:-118px 0;left:0;top:61px}
@@ -22,8 +22,8 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 .ds4 .back.pressed,.ds4 .start.pressed{opacity:.35;filter:brightness(1.35)}
 .ds4 .start{float:right}
 .ds4 .dpad{width:144px;height:144px;left:71px;top:196px}
-.ds4 .face{position:absolute;opacity:0;background:none!important}
-.ds4 .face.pressed{opacity:1;background:rgba(0,174,255,.18)!important;box-shadow:0 0 13px 3px rgba(0,174,255,.9)}
+.ds4 .face{background:url("https://i.imgur.com/hCmzXWK.png");position:absolute;opacity:0}
+.ds4 .face.pressed{opacity:1;filter:hue-rotate(165deg) saturate(1.6) brightness(1.5);box-shadow:0 0 12px rgba(0,174,255,.9)}
 .ds4 .face.up{background-position:0 -68px;width:52px;height:63px;left:46px}
 .ds4 .face.down{background-position:-54px 63px;width:52px;height:63px;left:46px;top:81px}
 .ds4 .face.left{background-position:-108px -68px;width:64px;height:52px;left:-1px;top:47px}
@@ -33,6 +33,6 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 .ds4 .bumper.pressed{opacity:.28;background:rgba(0,174,255,.55);border-radius:18px;box-shadow:0 0 16px rgba(0,174,255,.85)}
 .ds4 .bumper.right{float:right}
 .ds4 .triggers{width:619px;height:108px;left:94px}
-.ds4 .trigger{width:111px;height:108px;opacity:0;background:none!important;border-radius:45% 45% 12% 12%}
-.ds4 .trigger.pressed{opacity:1;background:rgba(255,119,0,.18)!important;box-shadow:0 0 16px 4px rgba(255,119,0,.85)}
+.ds4 .trigger{background:url("https://i.imgur.com/LsxmGBD.png");width:111px;height:108px;opacity:0}
+.ds4 .trigger.pressed{opacity:1;filter:hue-rotate(165deg) saturate(1.45) brightness(1.35);box-shadow:0 0 14px rgba(255,119,0,.8)}
 .ds4 .trigger.right{background-position:-113px 0;transform:rotateY(0);float:right}
