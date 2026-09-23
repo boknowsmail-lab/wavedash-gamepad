@@ -1,0 +1,46 @@
+/*
+ WaveDash DualSense V2
+ Clean rebuild: original GamePad Viewer geometry is authoritative.
+ Static artwork: wavedash-v2-static-master.png
+*/
+body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
+.controller.ds4{
+  background:url("./wavedash-v2-static-master.png");
+  width:807px;height:651px;margin:0;
+}
+
+/* ORIGINAL GPV GEOMETRY — DO NOT CALIBRATE TO ARTWORK */
+.ds4 .sticks{width:367px;height:100px;left:220px;top:333px}
+.ds4 .stick{width:100px;height:100px;background:none!important;border-radius:50%;box-sizing:border-box}
+.ds4 .stick.right{top:0;left:267px}
+.ds4 .stick.pressed{box-shadow:0 0 18px 4px rgba(0,174,255,.9),inset 0 0 0 3px rgba(255,119,0,.9)}
+
+.ds4 .abxy{width:181px;height:181px;left:573px;top:178px}
+.ds4 .button{width:58px;height:58px;background:none!important;border-radius:50%;opacity:0}
+.ds4 .button.pressed{opacity:1;background:rgba(0,174,255,.14)!important;box-shadow:0 0 15px 4px rgba(0,174,255,.9)}
+.ds4 .a{left:61px;top:123px}.ds4 .b{left:123px;top:62px}
+.ds4 .x{left:0;top:61px}.ds4 .y{left:61px;top:0}
+
+.ds4 .dpad{width:144px;height:144px;left:71px;top:196px}
+.ds4 .face{position:absolute;opacity:0;background:none!important}
+.ds4 .face.pressed{opacity:1;background:rgba(0,174,255,.14)!important;box-shadow:0 0 13px 3px rgba(0,174,255,.9)}
+.ds4 .face.up{width:52px;height:63px;left:46px}
+.ds4 .face.down{width:52px;height:63px;left:46px;top:81px}
+.ds4 .face.left{width:64px;height:52px;left:-1px;top:47px}
+.ds4 .face.right{width:63px;height:52px;left:81px;top:46px}
+
+.ds4 .arrows{left:195px;top:140px;width:416px;height:57px}
+.ds4 .quadrant{display:none}
+.ds4 .back,.ds4 .start{width:27px;height:57px;opacity:0}
+.ds4 .back.pressed,.ds4 .start.pressed{opacity:.35;filter:brightness(1.4)}
+.ds4 .start{float:right}
+
+.ds4 .bumpers{width:620px;height:35px;left:93px;top:114px}
+.ds4 .bumper{width:110px;height:35px;background:none!important;opacity:0}
+.ds4 .bumper.pressed{opacity:1;background:rgba(0,174,255,.18)!important;box-shadow:0 0 14px rgba(0,174,255,.85)}
+.ds4 .bumper.right{float:right}
+
+.ds4 .triggers{width:619px;height:108px;left:94px}
+.ds4 .trigger{width:111px;height:108px;background:none!important;opacity:0}
+.ds4 .trigger.pressed{opacity:1;background:rgba(255,119,0,.13)!important;box-shadow:0 0 16px rgba(255,119,0,.9)}
+.ds4 .trigger.right{float:right;transform:rotateY(0)}
