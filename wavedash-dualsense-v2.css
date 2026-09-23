@@ -82,3 +82,7 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 
 /* V2 CROSS MICRO-ALIGN 05 — empirical screen-up correction */
 .ds4 .abxy .a{top:229px!important}
+
+
+/* V2 CROSS MICRO-ALIGN 06 — user-directed 42px screen-up */
+.ds4 .abxy .a{top:271px!important}
