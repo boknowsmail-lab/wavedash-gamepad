@@ -4,13 +4,13 @@
  Geometry adapted from CrazyGrape's DualSense skin (CC BY 3.0 US).
 */
 body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
-.controller.ds4{background:url("./assets/wavedash-base.png");width:807px;height:651px;margin:0}
+.controller.ds4{background:url("./wavedash-base(2).png");width:807px;height:651px;margin:0}
 .ds4 .sticks{width:367px;height:100px;left:220px;top:333px}
-.ds4 .stick{background:url("./assets/sticks.png");width:100px;height:100px}
+.ds4 .stick{background:url("./sticks(1).png");width:100px;height:100px}
 .ds4 .stick.pressed{background-position:-102px 0}
 .ds4 .stick.right{top:0;left:267px}
 .ds4 .abxy{width:181px;height:181px;left:573px;top:178px}
-.ds4 .button{background:url("./assets/face-buttons.png");width:58px;height:58px}
+.ds4 .button{background:url("./face-buttons(1).png");width:58px;height:58px}
 .ds4 .button.pressed{background-position-y:-59px;margin-top:0}
 .ds4 .a{background-position:0 0;left:61px;top:123px}
 .ds4 .b{background-position:-59px 0;left:123px;top:62px}
@@ -22,7 +22,7 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 .ds4 .back.pressed,.ds4 .start.pressed{opacity:.35;filter:brightness(1.35)}
 .ds4 .start{float:right}
 .ds4 .dpad{width:144px;height:144px;left:71px;top:196px}
-.ds4 .face{background:url("./assets/dpad.png");position:absolute;opacity:0}
+.ds4 .face{background:url("./dpad(1).png");position:absolute;opacity:0}
 .ds4 .face.pressed{opacity:1;filter:brightness(1.15)}
 .ds4 .face.up{background-position:0 -68px;width:52px;height:63px;left:46px}
 .ds4 .face.down{background-position:-54px 63px;width:52px;height:63px;left:46px;top:81px}
@@ -33,6 +33,6 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 .ds4 .bumper.pressed{opacity:.28;background:rgba(0,174,255,.55);border-radius:18px;box-shadow:0 0 16px rgba(0,174,255,.85)}
 .ds4 .bumper.right{float:right}
 .ds4 .triggers{width:619px;height:108px;left:94px}
-.ds4 .trigger{background:url("./assets/triggers.png");width:111px;height:108px;opacity:0}
+.ds4 .trigger{background:url("./triggers(1).png");width:111px;height:108px;opacity:0}
 .ds4 .trigger.pressed{opacity:1;filter:brightness(1.22)}
 .ds4 .trigger.right{background-position:-113px 0;transform:rotateY(0);float:right}
