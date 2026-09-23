@@ -64,18 +64,3 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 
 /* V2 CROSS ALIGNMENT — measured from recorded live overlay */
 .ds4 .abxy .a{left:111px!important;top:222px!important}
-
-
-/* V2 ABXY — aligned from verified Cross offset; orange press feedback */
-.ds4 .abxy .a{left:111px!important;top:222px!important}
-.ds4 .abxy .b{left:173px!important;top:161px!important}
-.ds4 .abxy .x{left:50px!important;top:160px!important}
-.ds4 .abxy .y{left:111px!important;top:99px!important}
-.ds4 .abxy .button{opacity:0!important;background:none!important;outline:none!important;box-shadow:none!important}
-.ds4 .abxy .button.pressed{
-  opacity:1!important;
-  background:rgba(255,119,0,.55)!important;
-  outline:3px solid rgba(255,145,35,.95)!important;
-  box-shadow:0 0 22px 7px rgba(255,119,0,.90)!important;
-  border-radius:50%!important;
-}
