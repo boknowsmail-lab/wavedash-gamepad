@@ -44,3 +44,21 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 .ds4 .trigger{width:111px;height:108px;background:none!important;opacity:0}
 .ds4 .trigger.pressed{opacity:1;background:rgba(255,119,0,.13)!important;box-shadow:0 0 16px rgba(255,119,0,.9)}
 .ds4 .trigger.right{float:right;transform:rotateY(0)}
+
+
+/* V2 DIAGNOSTIC 01 — X/CROSS ONLY
+   Visible faintly at rest; bright when GPV applies .pressed.
+   Remove after state-hook verification. */
+.ds4 .abxy .a{
+  opacity:.28!important;
+  background:rgba(0,174,255,.28)!important;
+  outline:3px solid rgba(0,174,255,.95)!important;
+  box-shadow:none!important;
+  z-index:50!important;
+}
+.ds4 .abxy .a.pressed{
+  opacity:1!important;
+  background:rgba(255,119,0,.70)!important;
+  outline:4px solid rgba(255,255,255,.95)!important;
+  box-shadow:0 0 24px 8px rgba(255,119,0,.95)!important;
+}
