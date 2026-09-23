@@ -61,18 +61,18 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
   box-shadow:0 0 24px 8px rgba(255,119,0,.95)!important;
 }
 
-/* V2 FACE-BUTTON POSITIONING — explicit parent/child reference */
+/* V2 FACE-BUTTON POSITIONING — restore native GPV geometry */
 .ds4 .abxy{
   position:absolute!important;
-  width:148px!important;
-  height:148px!important;
-  left:556px!important;
-  top:176px!important;
+  width:181px!important;
+  height:181px!important;
+  left:573px!important;
+  top:178px!important;
 }
 .ds4 .button{
   position:absolute!important;
 }
 .ds4 .abxy .a{
-  left:69px!important;
-  top:250px!important;
+  left:61px!important;
+  top:123px!important;
 }
