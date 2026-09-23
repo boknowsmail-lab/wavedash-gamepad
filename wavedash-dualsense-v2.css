@@ -61,5 +61,5 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
   box-shadow:0 0 24px 8px rgba(255,119,0,.95)!important;
 }
 
-/* V2 CROSS POSITION — direct correction from latest screenshot */
-.ds4 .abxy .a{left:61px!important;top:57px!important}
+/* V2 CROSS POSITION — corrected from latest screenshot */
+.ds4 .abxy .a{left:35px!important;top:188px!important}
