@@ -61,32 +61,5 @@ body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
   box-shadow:0 0 24px 8px rgba(255,119,0,.95)!important;
 }
 
-
-
-
-/* V2 CROSS MICRO-ALIGN — left only */
-.ds4 .abxy .a{left:51px!important}
-
-
-/* V2 CROSS MICRO-ALIGN 02 — measured from screenshot */
-.ds4 .abxy .a{left:40px!important;top:165px!important}
-
-
-/* V2 CROSS MICRO-ALIGN 03 — down only */
-.ds4 .abxy .a{top:202px!important}
-
-
-/* V2 CROSS MICRO-ALIGN 04 — up 27px */
-.ds4 .abxy .a{top:175px!important}
-
-
-/* V2 CROSS MICRO-ALIGN 05 — empirical screen-up correction */
-.ds4 .abxy .a{top:229px!important}
-
-
-/* V2 CROSS MICRO-ALIGN 06 — user-directed 42px screen-up */
-.ds4 .abxy .a{top:271px!important}
-
-
-/* V2 CROSS MICRO-ALIGN 07 — corrected direction: 42px screen-up */
-.ds4 .abxy .a{top:187px!important}
+/* V2 CROSS POSITION — direct correction from latest screenshot */
+.ds4 .abxy .a{left:61px!important;top:57px!important}
