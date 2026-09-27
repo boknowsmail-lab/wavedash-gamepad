@@ -76,3 +76,9 @@ background:url("./wavedash-stickless-base.png?v=2");
   left:37px!important;
   top:130px!important;
 }
+
+.ds4 .abxy .a.pressed{
+    background:transparent!important;
+    box-shadow:none!important;
+    outline:none!important;
+}
