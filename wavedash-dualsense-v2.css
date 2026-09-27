@@ -29,7 +29,8 @@ background:url("./wavedash-stickless-base.png?v=2");
 .ds4 .face.left{width:64px;height:52px;left:-1px;top:47px}
 .ds4 .face.right{width:63px;height:52px;left:81px;top:46px}
 
-.ds4 .arrows{left:195px;top:140px;width:416px;height:57px}
+.ds4 .arrows{
+    display:none!important;
 
 .ds4 .quadrant{
     display:none!important;
