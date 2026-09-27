@@ -46,20 +46,6 @@ background:url("./wavedash-stickless-base.png?v=2");
 .ds4 .trigger.right{float:right;transform:rotateY(0)}
 
 
-/* V2 INPUT DIAGNOSTIC — CROSS ONLY */
-.ds4 .abxy .a{
-  opacity:.30!important;
-  background:rgba(0,174,255,.30)!important;
-  outline:3px solid rgba(0,174,255,.95)!important;
-  border-radius:50%!important;
-  z-index:50!important;
-}
-.ds4 .abxy .a.pressed{
-  opacity:1!important;
-  background:rgba(255,119,0,.75)!important;
-  outline:4px solid rgba(255,255,255,.95)!important;
-  box-shadow:0 0 24px 8px rgba(255,119,0,.95)!important;
-}
 
 /* V2 FACE-BUTTON POSITIONING — restore native GPV geometry */
 .ds4 .abxy{
