@@ -5,10 +5,10 @@
 */
 body{background:rgba(0,0,0,0);margin:0 auto;overflow:hidden}
 .controller.ds4{
-background:url("./wavedash-stickless-base.png?v=2");
+  background:url("./wavedash-stickless-base.png?v=2");
   width:807px;height:651px;margin:0;
+  filter:grayscale(1)!important;
 }
-
 /* ORIGINAL GPV GEOMETRY — DO NOT CALIBRATE TO ARTWORK */
 .ds4 .sticks{width:367px;height:100px;left:220px;top:333px}
 .ds4 .stick{width:100px;height:100px;background:none!important;border-radius:50%;box-sizing:border-box}
@@ -69,6 +69,3 @@ background:url("./wavedash-stickless-base.png?v=2");
   top:130px!important;
 }
 
-* {
-    outline: 3px solid red !important;
-}
