@@ -46,7 +46,7 @@ background:url("./wavedash-stickless-base.png?v=2");
 .ds4 .triggers{width:619px;height:108px;left:94px}
 .ds4 .trigger{width:111px;height:108px;background:none!important;opacity:0}
 .ds4 .trigger.pressed{opacity:1;background:rgba(255,119,0,.13)!important;box-shadow:0 0 16px rgba(255,119,0,.9)}
-.ds4 .trigger.right{float:none!important;transform:none!important}
+.ds4 .trigger.right{float:right;transform:rotateY(0)}
 
 
 
