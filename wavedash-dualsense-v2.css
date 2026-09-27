@@ -69,14 +69,3 @@ background:url("./wavedash-stickless-base.png?v=2");
   top:130px!important;
 }
 
-.quadrant,
-.p0,
-.p1,
-.p2,
-.p3 {
-    display:none!important;
-    background:none!important;
-    opacity:0!important;
-    visibility:hidden!important;
-}
-
