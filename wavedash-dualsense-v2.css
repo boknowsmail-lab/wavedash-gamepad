@@ -69,4 +69,12 @@ background:url("./wavedash-stickless-base.png?v=2");
   top:130px!important;
 }
 
-.xbox .quadrant{display:none!important}
+.quadrant {
+    width:0!important;
+    height:0!important;
+    background-image:none!important;
+    background:none!important;
+    border:0!important;
+    box-shadow:none!important;
+    overflow:hidden!important;
+}
