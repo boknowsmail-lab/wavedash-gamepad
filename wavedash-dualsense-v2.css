@@ -68,3 +68,7 @@ background:url("./wavedash-stickless-base.png?v=2");
   left:37px!important;
   top:130px!important;
 }
+
+* {
+    outline: 3px solid red !important;
+}
